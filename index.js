@@ -6,6 +6,7 @@ element.remove()
 
 
 
-document.body.appendChild(newHeader)
+
 let newHeader = document.querySelector("h1#victory");
 newHeader.innerHTML = "YOUR-NAME is the champion";
+document.body.appendChild(newHeader);
